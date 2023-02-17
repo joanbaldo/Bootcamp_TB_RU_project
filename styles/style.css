@@ -12,8 +12,17 @@ html{
     --gris1: rgb(124, 124, 124);
     --gris2: rgb(98, 97, 97);
 }
-p, address, h3,ul , ol, pre{
-    color: var(--gris1);
+*{
+
     font-family: 'Roboto Mono', monospace;
     font-family: 'Space Mono', monospace;
    }   
+button{
+    font-size: 2rem;
+
+
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
