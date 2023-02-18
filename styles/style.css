@@ -164,3 +164,32 @@ main.myart{
     display:flex;
     flex-direction: column;
 }
+
+/*CONFIGURACIÓN : FIND ME -MAIN- */
+
+main.findme{
+    display:flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    column-gap: 45px;
+    row-gap: 40px;
+}
+.formulario{
+    /* writing-mode: vertical-rl;  */
+    font-size: 1.6rem;
+    font-style: italic;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}/*
+form{
+    display:flex;
+    flex-direction: column;
+    /* align-items: flex-end; 
+    align-items: center;
+    font-size: 1.6rem;
+    font-style: italic;
+    text-align: center;
+}
