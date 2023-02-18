@@ -99,7 +99,7 @@ div.social{
 main.km0{
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: stretch;
     column-gap: 20px;
 }
@@ -123,25 +123,44 @@ main.km0{
 main.thejoan{
     display:flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-content: stretch;
-    /* row-gap: 20px; */
 }
 .tjsection{
-    height: 300px;
     display:flex;
-    justify-content: stretch;
+    justify-content: space-between;
     flex-direction: row;
     column-gap: 45px;
 }
 .tj_txt{
     display:flex;
     flex-direction: row;
-    /* justify-content: flex-end; */
     align-items: flex-end;
-    /* column-gap: 20px; */
     align-items: center;
     font-size: 1.6rem;
     font-style: italic;
     text-align: center;
+}
+
+/*CONFIGURACIÓN : MY ART -MAIN- */
+
+main.myart{
+    display:flex;
+    flex-direction: column;
+    align-content: stretch;
+    column-gap: 45px;
+    row-gap: 40px;
+}
+.video{
+    display:flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.vedit{
+    writing-mode: vertical-rl;
+    font-size: 4rem;
+    font-style: italic;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
 }
