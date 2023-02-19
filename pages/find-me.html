@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,20 +27,23 @@
         <div class="formulario">
             <form>
                 <div>
-                    <label for="nombre">NAME</label>
-                    <input type="text" placeholder="who you are" name="nombre" autofocus required><br><br><br>
-                    <label for="mail">YOUR MAIL</label>
-                    <input type="email" placeholder="where to reach you" name="mail" id="mail"><br>
+                    <span>WHAT DO YOU WANT FROM ME!?</span><br><br>
+
+                    <input type="radio" name="radio" id="r1" tabindex="1" autofocus required ><br>
+                    <label for="r1">#blood</label><br><br>
+                    <input type="radio" name="radio" id="r2" tabindex="2" required ><br>
+                    <label for="r2">#money</label><br><br>
+                    <input type="radio" name="radio" id="r3" tabindex="3" required ><br>
+                    <label for="r3">#advices</label><br><br>
                 </div>
                 <div>
-                    <span>WHAT DO YOU WANT FROM ME!?</span>
-                    <label for="r1">#blood</label>
-                    <input type="radio" name="radio" id="r1">
-                    <label for="r2">#money</label>
-                    <input type="radio" name="radio" id="r2">
-                    <label for="r3">#advices</label>
-                    <input type="radio" name="radio" id="r3">
+                    <label for="nombre">NAME</label>
+                    <input type="text" placeholder="who you are" name="nombre" required tabindex="4"><br><br>
+                    <label for="mail">YOUR MAIL</label>
+                    <input type="email" placeholder="where to reach you" name="mail" id="mail" tabindex="5" required><br>
+                    <input type="submit" value="SHOT!" tabindex="6">
                 </div>
+
             </form>
         </div>
     </main>
